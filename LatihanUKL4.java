@@ -16,9 +16,13 @@ public class LatihanUKL4 {
         jariJari = input.nextDouble();
         System.out.println("Masukkan tinggi");
         tinggi = input.nextDouble();
+        System.out.println("Anda memasukkan jari-jari: " + jariJari + " cm");
+        System.out.println("Anda memasukkan tinggi: " + tinggi + " cm");
+        System.out.println("Phi yang digunakan: " + phi);
 
         //Output
         System.out.println("Volume tabung adalah: " + jariJari* jariJari * tinggi * phi);
         
     }
 }
+
